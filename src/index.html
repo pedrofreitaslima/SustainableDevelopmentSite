@@ -1,15 +1,186 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desenvolvimento Sustentável</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" type="text/css" href="./styles/index.css">
-</head>
-<body>
-    
-    
-    <script type="text/javascript" src="./scripts/index.js"></script>
-</body>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Meio <span>Ambiente</span>.</a>
+        <h1 class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#section1">Futuro verde</a></li>
+            <li><a class="title" href="#section2">Pilares</a></li>
+            <li><a class="title" href="#section3">Depoimentos</a></li>
+            <li><a class="title" href="#section4">Contatos</a></li>
+          </ul>
+        </h1>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img src="../image/image.png" />
+          </div>
+          <div class="text">
+            <h2 class="title">Planeta Sustentável</h2>
+            <p>
+              "Planeta Sustentável" promove práticas ecológicas para combater mudanças climáticas, 
+              incentivando ações sustentáveis e conscientização ambiental através de educação e tecnologia verde.
+            </p>
+            <a class="button" href="#section2">Principais pilares</a>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <section class="section" id="section1">
+        <div class="container grid">
+          <div class="image">
+            <img src="../image/heands.png" alt="3 mulheres sorrindo" />
+          </div>
+          <div class="text">
+            <h2 class="title">Visão para um Futuro Verde</h2>
+            <p>
+              Um planeta sustentável é aquele onde os recursos naturais são utilizados de maneira responsável, 
+              garantindo que as necessidades presentes não comprometam a capacidade das gerações futuras de 
+              atenderem às suas próprias necessidades. Este conceito abrange uma ampla gama de práticas, 
+              desde a gestão sustentável de florestas e oceanos até o desenvolvimento de energias renováveis, 
+              como solar e eólica, que reduzem nossa dependência de combustíveis fósseis e minimizam nossa pegada de carbono.
+            </p>
+            <br />
+            <p>
+              Para alcançar a sustentabilidade em um nível planetário, é crucial que haja uma mudança significativa nos padrões 
+              de consumo e produção. Isso implica em adotar uma economia circular, onde o conceito de "resíduo" é eliminado e 
+              materiais são continuamente reutilizados e reciclados. Além disso, é necessário que haja uma integração das 
+              políticas ambientais com as práticas empresariais e de governança, assegurando que o crescimento econômico esteja 
+              alinhado com a conservação ambiental.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+      <section class="section" id="section2">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Pilares da Sustentabilidade</h2>
+            <p class="subtitle">
+              Explorando as bases de um mundo sustentável: transição energética, modelos econômicos regenerativos e 
+              a proteção vital da biodiversidade para a saúde do planeta.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <h3 class="title">Energias Renováveis</h3>
+              <p>
+                A transição de combustíveis fósseis para fontes de energia renováveis, como solar, 
+                eólica, hidrelétrica e biomassa, é crucial para reduzir emissões de carbono e promover 
+                a sustentabilidade energética.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="title">Economia Circular</h3>
+              <p>
+                Adotar um modelo econômico que priorize a reutilização, a reciclagem e a redução de resíduos em 
+                todos os setores industriais, eliminando o conceito de "lixo" e otimizando o uso dos recursos naturais.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="title">Conservação da Biodiversidade</h3>
+              <p>
+                Proteger e restaurar a biodiversidade e os ecossistemas naturais, implementando práticas de conservação 
+                e manejo sustentável que garantam a manutenção dos serviços ecossistêmicos essenciais para a vida no planeta.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <section class="section" id="section3">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos</h2>
+          </header>
+          <div class="section3 swiper">
+            <div class="swiper-wrapper">
+              <div class="section3 swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Como agricultora, vi a necessidade de mudar minhas práticas para preservar a terra que alimenta nossa comunidade.
+                  </p>
+                  <cite>
+                    Ana Beatriz
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="section3 swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Após trabalhar por anos na indústria de energia tradicional, decidi que era hora de contribuir para uma solução mais verde.
+                  </p>
+                  <cite>
+                    Carlos Eduardo
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="section3 swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Gerencio um programa de reciclagem em nossa cidade e nos últimos três anos, conseguimos dobrar a quantidade de materiais reciclados. 
+                  </p>
+                  <cite>
+                    Mariana
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="" id="home" class="logo logo-alt"
+            >Meio<span>Ambiente</span>.</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
